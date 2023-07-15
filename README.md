@@ -18,7 +18,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
   [github for react](https://github.com/jsx-eslint/eslint-plugin-react)
   [npm for react hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 
-```json
+```javascript 
   //Add the following line to extends rule in .eslintrc
   {
     "extends": [ "plugin:react/recommended",
@@ -39,7 +39,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
 
 - React JSX Runtime : For enabling JSX support without importing react (See this :[JSX Transform React 17+](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html))
 
-  ```json
+  ```javascript
   //Add the following line to extends rule in .eslintrc
   {
     "extends": [" 'plugin:react/jsx-runtime'"]
@@ -48,7 +48,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
 
 - React JSX Accessiblity ([npm](https://www.npmjs.com/package/eslint-plugin-jsx-a11y))
 
-```json
+```javascript
 //Add the following line to extends rule in .eslintrc
 {
   "extends": [" 'plugin:jsx-a11y/recommended'"]
@@ -60,7 +60,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
   This is configured automatically by react template with typescript in vite
   But if you want to configure it then include the following
 
-  ```json
+  ```javascript
   "plugins": ["react-refresh"],
   rules: {
       'react-refresh/only-export-components': [
@@ -76,7 +76,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
   [npm](https://www.npmjs.com/package/eslint-plugin-import)
   [github](https://github.com/import-js/eslint-plugin-import)
 
-  ```json
+  ```javascript
   {
     "extends": ["plugin:import/recommended"]
   }
@@ -86,7 +86,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
   [npm](https://www.npmjs.com/package/eslint-import-resolver-typescript)
   [github](https://github.com/import-js/eslint-import-resolver-typescript)
 
-  ```json
+  ```javascript
   {
     "extends": ["plugin:import/typescript"],
     "settings": {
@@ -107,7 +107,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
   [npm](https://www.npmjs.com/package/eslint-plugin-prettier)
   [github](https://github.com/prettier/eslint-plugin-prettier)
 
-  ```json
+  ```javascript
   {
     "extends": ["prettier"]
   }
@@ -119,7 +119,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
 
    - [npm](https://www.npmjs.com/package/eslint-config-airbnb)
 
-   ```json
+   ```javascript
    //Add the following line to extends rule in .eslintrc
    {
      "extends": ["airbnb"]
@@ -134,7 +134,7 @@ Configured eslint using eslintrc.cjs with following configs and plugins
 
    ```
 
-   ```json
+   ```javascript
    //Add the following line to extends rule in .eslintrc
    {
        extends:["airbnb","airbnb-typescript"]
