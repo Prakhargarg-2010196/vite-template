@@ -1,6 +1,3 @@
-![Under Construction](https://img.shields.io/badge/-under%20maintenence-red) 
-![Twitter Follow](https://img.shields.io/twitter/follow/prakhargarg23?logo=twitter)
-
 # <p align="center"><i> Vite + React + TypeScript + ESLint + Prettier Template </i></p> 
 <p align="center">
   <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
@@ -26,10 +23,17 @@
 </p>
 <br/>
 
-Github Repository : 
+Github Repository : https://github.com/Prakhargarg-2010196/vite-template
 
 
+ 
 
 ## Want to contribute to this project 
 ### Contribution
 See [Contributing Guide](CONTRIBUTING.md).
+
+## Connect me on my socials 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/prakhargarg23) 
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/prakhargarg23) 
+
+
