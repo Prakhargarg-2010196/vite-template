@@ -1,8 +1,12 @@
+![Under Construction](https://img.shields.io/badge/-under%20maintenence-red) 
+![Twitter Follow](https://img.shields.io/twitter/follow/prakhargarg23?logo=twitter)
+
+# <p align="center"><i> Vite + React + TypeScript + ESLint + Prettier Template </i></p> 
 <p align="center">
   <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
     <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="Vite logo">
   </a>
-	        
+	  
 	<a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
     <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="Typescript logo">
   </a>
@@ -10,7 +14,7 @@
   <a href="https://airbnb.io/javascript/react/" target="_blank" rel="noopener noreferrer">
     <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" alt="AirBNB logo">
   </a>
-	           
+	        
   <a href="https://eslint.org/" target="_blank" rel="noopener noreferrer">
     <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/ESLint_logo.svg" alt="Eslint logo">
   </a>
@@ -23,13 +27,13 @@
 <br/>
 
 
-# Project Configurations
 
-Commands of good usage
 
-To run typescript build use `ctrl + shift + B` and then tsc:build option this will use the typeconfig.json
+## Repeatitive Commands  
 
-Configured eslint using eslintrc.cjs with following configs and plugins
+- To run typescript build : `ctrl + shift + B` and then tsc:build option  (This command will use the typeconfig.json 
+- To format entire project using prettier: `npx prettier --write *path to current directory*` (This command uses the prettierrc.cjs config file we would create)
+# ESLINT Configuration
 
 ## PLUGINS
 
