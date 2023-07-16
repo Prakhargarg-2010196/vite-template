@@ -24,7 +24,8 @@
 <br/>
 
 Github Repository : https://github.com/Prakhargarg-2010196/vite-template
-Go Here To Know How to config it yourself : https://github.com/Prakhargarg-2010196/vite-template/wiki
+
+Wiki Describing the Procedure to Configure: https://github.com/Prakhargarg-2010196/vite-template/wiki
 
  
 
